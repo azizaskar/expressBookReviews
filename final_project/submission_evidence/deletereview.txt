@@ -1,0 +1,11 @@
+$ curl.exe -sS -i -b C:\Users\azizm\AppData\Local\Temp\bookreview-cookies-14388.txt -X DELETE http://127.0.0.1:5000/customer/auth/review/1
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 54
+ETag: W/"36-CWIhLFnDDJJNghj92Dyv9oJktLA"
+Date: Thu, 29 Oct 2026 13:04:33 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{"message":"Review deleted successfully","reviews":{}}

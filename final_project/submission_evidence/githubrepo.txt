@@ -1,0 +1,11 @@
+$ curl.exe -sS -H "Accept: application/vnd.github+json" https://api.github.com/repos/azizaskar/expressBookReviews | ConvertFrom-Json | Select-Object full_name,fork,@{Name="parent";Expression={$_.parent.full_name}} | Format-List
+
+
+full_name : azizaskar/expressBookReviews
+fork      : True
+parent    : ibm-developer-skills-network/expressBo
+            okReviews
+
+
+
+

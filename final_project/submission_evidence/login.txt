@@ -1,0 +1,3 @@
+$ curl.exe -sS -w "\nHTTP status: %{http_code}\n" -c C:\Users\azizm\AppData\Local\Temp\bookreview-cookies-14388.txt -X POST http://127.0.0.1:5000/customer/login -d username=aziz_demo_14388&password=DemoOnly-Book123!
+{"message":"User successfully logged in","username":"aziz_demo_14388"}
+HTTP status: 200

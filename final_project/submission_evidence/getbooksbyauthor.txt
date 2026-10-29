@@ -1,0 +1,11 @@
+$ curl.exe -sS -i http://127.0.0.1:5000/author/Unknown
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 272
+ETag: W/"110-BYy7eINa//CBuP0CdDXJk3eTnM4"
+Date: Thu, 29 Oct 2026 13:04:32 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{"4":{"author":"Unknown","title":"The Epic Of Gilgamesh","reviews":{}},"5":{"author":"Unknown","title":"The Book Of Job","reviews":{}},"6":{"author":"Unknown","title":"One Thousand and One Nights","reviews":{}},"7":{"author":"Unknown","title":"Nj├бl's Saga","reviews":{}}}

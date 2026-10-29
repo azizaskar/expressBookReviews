@@ -1,0 +1,11 @@
+$ curl.exe -sS -i http://127.0.0.1:5000/isbn/1
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 67
+ETag: W/"43-ATO5jS73w2LhKRroBoeeZ+CiC/c"
+Date: Thu, 29 Oct 2026 13:04:32 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{"author":"Chinua Achebe","title":"Things Fall Apart","reviews":{}}
